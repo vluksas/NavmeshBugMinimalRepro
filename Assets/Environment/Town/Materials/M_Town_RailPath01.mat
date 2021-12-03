@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Town_RailPath01
+  m_Shader: {fileID: 4800000, guid: dffc6d1d2b037604bbf2ff9fd3bf392e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AutumnTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseColor1:
+        m_Texture: {fileID: 2800000, guid: 184e96e763f21c242bb4e6298aa323b8, type: 3}
+        m_Scale: {x: 0.3, y: 0.3}
+        m_Offset: {x: 0, y: 0}
+    - _BaseColor2:
+        m_Texture: {fileID: 2800000, guid: 1ba7a789d73bf1345963e69d24bc3992, type: 3}
+        m_Scale: {x: 0.15, y: 0.15}
+        m_Offset: {x: 0, y: 0}
+    - _BaseColor2R:
+        m_Texture: {fileID: 2800000, guid: e5fece8de73b62543844bd891e9df825, type: 3}
+        m_Scale: {x: 0.2, y: 0.2}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: d68db407ff511b24583c01e275198798, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AutumnColorBlend: 0
+    - _BC1EdgeStrength: 2.65
+    - _BC1GradientLength: 1.25
+    - _BC1GradientMaskInfluence: 1
+    - _BC1GradientStrength: 1.8
+    - _BC2EdgeStrength: 1.2
+    - _BC2GradientMaskInfluence: 0.653
+    - _BC2GrandientLength: 1
+    - _BlendSharpen: 2
+    - _BlendStrength: 5
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _Division: 2
+    - _DivisionPushPull: 0.27
+    - _DstBlend: 0
+    - _EdgeStrength: 1.54
+    - _FinalBlendEdgeStrength: 2
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GradientMaskInfluence: 0.7
+    - _GrandientLength: 1
+    - _MaskInfluence: 4.1
+    - _MaskStrength: 4.1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PushPull: 0.597
+    - _SimpleAutumnColor: 0
+    - _SmoothnessTextureChannel: 0
+    - _SnowIntensityMultiplier: 1.5
+    - _SnowNormalPower: 1
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TotalBlendStrength: 5
+    - _UVSec: 0
+    - _UseAutumnTex: 0
+    - _WinterColorBlend: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _AutumnColor1: {r: 0.8396226, g: 0.50221646, b: 0.106933065, a: 1}
+    - _BC1EdgeColor: {r: 0.009433985, g: 0.009433985, b: 0.009433985, a: 0}
+    - _BC1GradientColor: {r: 0.688, g: 0.6541823, b: 0, a: 0}
+    - _BC2EdgeColor: {r: 0, g: 0.26415092, b: 0.019566722, a: 0}
+    - _BC2GradientColour: {r: 0.76400846, g: 0.802, b: 0.29032397, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EdgeColour: {r: 0, g: 0.277, b: 0.024086952, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GradientColour: {r: 0.16510679, g: 0.773, b: 0.71671355, a: 1}
+    - _Tint: {r: 0.1724219, g: 0.39854917, b: 0.48899996, a: 1}
+    - _TintBC1: {r: 1, g: 1, b: 1, a: 0}
+    - _TintBC2: {r: 0.73333335, g: 0.74509805, b: 0.6313726, a: 1}
+    - _WinterColor1: {r: 0.38487887, g: 0.6008307, b: 0.8773585, a: 1}
